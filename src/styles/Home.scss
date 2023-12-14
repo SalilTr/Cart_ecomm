@@ -1,0 +1,39 @@
+.home{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 5rem;
+   
+    
+}
+.product{
+    background-color: rgb(145, 145, 177);
+    gap: 20px;
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 5px;
+    color: aliceblue;
+}
+.product button{
+    width: 100%;
+    border-radius: 4px;
+    padding: 5px 5px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+.product img{
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    background: transparent;
+}
+.product p{
+    padding: 0;
+    margin: 0;
+}
